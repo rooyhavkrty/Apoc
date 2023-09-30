@@ -1,0 +1,437 @@
+body{
+    background-image: url(images/pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+.writing-div{
+    padding-top: 175px;
+    padding-left: 100px;
+    width: 50%;
+    height: auto;
+
+}
+
+.first-writing{
+    font-weight: normal;
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.second-writing{
+    color: #181818;
+        font-family: Calibri, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: none;
+        font-size: 50pt;
+        margin: 0;
+        padding: 0;
+
+}
+
+.learn-more{
+    display: inline-block;
+    padding: 10px 14px;
+    background-color: #3498db;
+    color: #ffffff; 
+    border: none;
+    border-radius: 20px; 
+    cursor: pointer;
+    font-size: 30px;
+    margin-left: 18px;
+    position: absolute;
+    top: 368px;
+}
+
+.image-div{
+    width: 50%;
+    margin-top: -465px;
+    float: right;
+    height: auto;
+  }
+
+
+.image{
+    height: 625px;
+    width: 720px;
+}
+
+.middle-writing{
+    padding-top: 130px;
+    padding-left: 100px;
+    width: 50%;
+    height: auto;
+}
+
+.middle-image{
+    width: 50%;
+    height: auto;
+}
+
+.middle-text{
+    font-weight: normal; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+}
+
+.apoc{
+    width: 190px;
+    height: 72px;
+    margin-top: 10px;
+}
+
+.apoc-div{
+    width: 190px;
+    padding-left: 360px;
+    margin-top: -120px;
+}
+
+.apco-writing{
+    width: 100%;
+}
+
+.apco-text{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.375em;
+    font-weight: 100;
+    color: #292929;
+}
+
+.second-last{
+    width: 100%;
+    height: 550px;
+}
+
+.devices-text{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.devices-cards{
+    width: 100%;
+    height: auto;
+}
+
+.card-one{
+    width: 240px; 
+    margin: 20px auto;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 0 80px 0px 80px;
+    overflow: hidden;
+    float: left;
+    margin-left: 150px;
+}
+.card-one img {
+    width: 100%;
+    display: block;
+}
+
+.card-one-content {
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-two{
+    width: 240px; 
+    margin: 20px auto;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 0 80px 0px 80px;
+    overflow: hidden;
+    float: left;
+    margin-left: 250px;
+}
+
+.card-two img {
+    width: 100%;
+    display: block;
+}
+
+.card-two-content {
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-three{
+    width: 240px; 
+    margin: 20px auto;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 0 80px 0px 80px;
+    overflow: hidden;
+    margin-right: 105px;
+    float: right;
+}
+
+.card-three img {
+    width: 100%;
+    display: block;
+}
+
+.card-three-content {
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.use-cases{
+    width: 100%;
+    height: 600px;
+}
+
+.use-case-text{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.use-case-heading{
+    width: 100%;
+    height: auto;
+}
+
+.use-cases-text{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.use-cases-container{
+    width: 100%;
+    height: 300px;
+}
+
+.water-ambulance{
+    width: 240px; 
+    margin: 20px auto;
+    overflow: hidden;
+    float: left;
+    padding-left: 190px;
+}
+
+.water-ambulance-content{
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.water-ambulance img{
+    width: 100%;
+    display: block;
+}
+
+.smart-Emergency{
+    width: 240px; 
+    margin: 20px auto;
+    overflow: hidden;
+    float: left;
+    padding-left: 200px;
+    margin-top: 2px;
+}
+
+.smart-emergency-content{
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.smart-emergency img{
+    width: 100%;
+    display: block; 
+}
+
+.air-ambulance{
+    width: 240px; 
+    margin: 20px auto;
+    float: right;
+    padding-top: 10px;
+    padding-right: 75px;
+}
+
+.air-ambulance-content{
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.air-ambulance img{
+    width: 100%;
+    display: block;  
+}
+
+.second-usecase-container{
+    width: 100%;
+    height: 300px;
+}
+
+.tele-icu{
+    width: 240px; 
+    margin: 50px auto;
+    padding-left: 190px; 
+    float: left; 
+    margin-left: -875px; 
+}
+
+.tele-icu-content{
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.tele-icu img{
+    width: 100%;
+    display: block;  
+}
+
+.smart-clinic img{
+    width: 100%;
+    display: block;
+}
+
+.smart-clinic-content{
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.smart-clinic{
+    width: 240px;
+    float: left;
+    margin-top: 55px;
+    margin-left: -230px;
+}
+
+.road-ambulance{
+    width: 240px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 75px;
+
+}
+
+.road-ambulance-content{
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.road-ambulance img{
+    width: 100%;
+    display: block;
+}
+
+.footer{
+    width: 100%;
+    height: 500px;
+
+}
+
+.footer-heading{
+    width: 100%;
+    margin-top: 190px;
+}
+
+.footer-text{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.tcard-one{
+    width: 240px; 
+    margin: 20px auto;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 0 80px 0px 80px;
+    overflow: hidden;
+    float: left;
+    margin-left: 150px; 
+}
+
+.tcard-one img{
+    width: 100%;
+    display: block;
+}
+
+.tcard-one-content{
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tcard-two{
+    width: 240px; 
+    margin: 20px auto;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 0 80px 0px 80px;
+    overflow: hidden;
+    float: left;
+    margin-left: 90px; 
+}
+
+.tcard-two img{
+    width: 100%;
+    display: block;  
+}
+
+.tcard-two-content{
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tcard-three{
+    width: 240px; 
+    margin: 20px auto;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 0 80px 0px 80px;
+    overflow: hidden;
+    float: left;
+    margin-left: 97px;  
+}
+
+.tcard-three img{
+    width: 100%;
+    display: block;
+}
+
+.tcard-three-content{
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tcard-four{
+    width: 240px; 
+    margin: 20px auto;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 0 80px 0px 80px;
+    overflow: hidden;
+    float: left;
+    margin-left: 97px;  
+}
+
+.tcard-four img{
+    width: 100%;
+    display: block;   
+}
+
+.tcard-four-content{
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
